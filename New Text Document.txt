@@ -1,0 +1,2 @@
+ALTER TABLE `books` ADD `Dcount` INT( 10 ) NOT NULL
+ALTER TABLE `books` ADD `Vcount` INT( 10 ) NOT NULL

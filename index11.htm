@@ -1,0 +1,430 @@
+
+<!DOCTYPE html>
+<html><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="data/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="data/bootstrap-select.css">
+	<link href="data/css.css" rel="stylesheet" type="text/css">
+	<link href="data/css_002.css" rel="stylesheet" type="text/css">
+	<link href="data/font-awesome.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="data/camera.css">
+    <link rel="stylesheet" type="text/css" href="data/style.css">
+	  <link rel="stylesheet" type="text/css" href="data/flexslider.css">
+    <!--script type="text/javascript" src="data/firebug-lite-debug.js"></script-->	
+	<title>Digital Library</title>
+<script src="data/all.js" id="facebook-jssdk"></script>
+<script type="text/javascript" src="data/jquery.min.js"></script>
+
+
+
+<style>
+#myproduct
+{
+border: 1px solid #CCCCCC;
+border-radius:10px;
+}		
+
+#myproduct:hover
+{
+border: 1px solid #FFCC66;
+border-radius:10px;
+
+}		
+
+#myliks
+{
+
+ font-size:14px;
+ color:#fff;
+}
+
+#myliks:hover
+{
+
+ font-size:14px;
+ color:#FFCC66;
+}
+</style>	
+
+</head>
+<body>
+		<div class="row" >
+		    <div class="col-md-12" style="background: #000;">
+			    <div class="breadcrumbs">
+				    <ul class="breadcrumb" style="background: #009900;"><br>
+
+                    </ul>
+				</div>
+			</div>
+			
+		</div>
+
+<div class="page-container">
+
+	<div class="header" style="margin-bottom: 0px;">
+			<nav class="navbar container">
+			<div class="row">
+		    <div class="col-md-12">
+			<div style="float:right;padding-right:20px;">
+Welcome <br> ABC
+			</div>
+
+		
+		
+
+  <a href="#" class="navbar-brand">
+					Digital Library</a>
+<br><br><br><br><br><br>
+		</div>
+			</div>
+			</nav>
+			</div>
+
+
+
+			  <div class="navbar-header pull-left">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				  <span class="sr-only">Toggle navigation</span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				</button>
+				
+			  </div>
+
+
+			  	<div class="row" style="background: #009900;">
+		    <div class="col-md-10">
+                 <div class="navbar-collapse collapse navbar-right">
+					<ul class="nav navbar-nav">
+                      <li>
+					  <a href="index.php?page=1" id="myliks">Home</a></li>
+<li><a href="index.php?page=8" id="myliks">About Us</a></li>
+<li><a href="index.php?page=7" id="myliks">Contact </a></li>
+
+	
+					 <li><a href="index.php?Logout=Logout" id="myliks">Log Out</a></li>
+					<li><a href="index.php?page=5" id="myliks">Sign In/Sign Up</a></li>
+					 
+
+ 
+                    </ul>
+		 
+					 
+                  </div><!-- /.navbar-collapse -->
+
+				  </div>
+			</div>
+
+	
+	
+<div class="row" style="margin-right: auto;margin-left: auto;">
+<div class="col-md-12" >
+
+		<div class="row" style="background: #fff;">
+		    <div class="col-md-12" style="background: #fff;">
+			    <div class="breadcrumbs">
+				    <ul class="breadcrumb" style="background: #fff;">
+                        <li><a href="index.php">Home</a> <span class="divider"></span></li>
+                        <li class="active">Book Search</li>
+                    </ul>
+					
+				</div>
+			</div><hr>
+		</div>
+
+<div class="row"	>
+<br>
+</div>
+		<div class="row">
+		    <div class="col-md-3 left-menu">
+				<div class="">
+					<h2>Book Type</h2>
+					
+					<ul>
+<li><a href="index.php">All</a></li>
+<li><a href="index.php">Programing</a></li>
+					</ul>
+
+
+
+
+				</div>
+
+
+
+
+		    <div>
+			    <div class="product" id="myproduct" >
+				    <a href="#"><img alt="dress5" src="images/1.jpg" style="height:150px;"></a>
+
+				</div>
+			</div>
+
+
+
+			</div>
+		
+		<div class="col-md-9">
+		
+				<div class="row">
+		    <div class="col-md-12">
+			    <div class="breadcrumbs">
+	
+						<div class="row registerbox"><div class="form-group col-md-12">
+						<form action="index.php" method="get">
+							<label class="control-label col-md-1" for="inputEmail">Search:</label>
+							<div class="col-md-8">
+								<input class="form-control" type="text" name="key" placeholder="What Are You Looking For?" value="" id="key">
+							</div>						<div class="col-md-2">
+								<input class="form-control" type="Submit" style="color:#fff;background-color: #000;   font-size:18px;" value="Search">
+							</div>
+						<br><br><hr>
+		
+							</form>
+						</div></div>
+
+
+				</div>
+			</div></div>
+			
+		
+
+
+						<div class="row">
+		    <div class="col-md-12 slideshow">
+			    <div>
+			      
+			    <div style="overflow: hidden; position: relative;" class="flex-viewport">
+				<ul style="width: 1000%; transition-duration: 0.6s; transform: translate3d(-1880px, 0px, 0px);" class="slides"><li style="width: 940px; float: left; display: block;" class="clone">
+					<a href="">
+					<img src="images/sub2.jpg" alt="Banner">
+					</a>
+				</li>
+				<li style="width: 940px; float: left; display: block;" class="">
+					<a href="">
+						<img src="images/sub2.jpg" alt="Banner 1">
+					</a>
+				</li>
+				<li class="flex-active-slide" style="width: 940px; float: left; display: block;">
+					<a href="">
+					<img src="images/sub1.jpg" alt="Banner2">
+					</a>
+				</li>
+				<li style="width: 940px; float: left; display: block;">
+					<a href="">
+					<img src="images/sub2.jpg" alt="Banner">
+					</a>
+				</li>
+			       <li style="width: 940px; float: left; display: block;" class="clone">
+					<a href="">
+						<img src="images/sub.jpg" alt="Banner 1">
+					</a>
+				</li></ul></div>
+
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row">
+
+
+
+		    <div class="col-md-3">
+			    <div class="product" id="myproduct" style="height:350px;">
+				    <a href="#"><img alt="dress5" src="images/1.jpg" style="height:150px;"></a>
+					<hr>
+					<div class="name">
+				    <a href=""><?php echo $row['productname']; ?>(Logical)</a>
+				    </div>
+				    <div class="price">
+				    <p>Rs.100&nbsp;&nbsp;<strike>120</strike></p>
+					 <p>Logical</p>
+				    </div>
+				</div>
+			</div>
+
+		
+		</div>
+	
+
+		
+
+
+<hr>
+
+
+<div class="clear1"></div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<ul class="pagination pull-right">
+<li><a href=''> <u>[&nbsp;<span>First</span>&nbsp;<small>&gt;&gt;</small>&nbsp;]</u></a></li>
+<li><a href='' value="1" name='submit' class='pages' id="1">1</a></li>
+<li><a href=''> <u>[&nbsp;<span>Last</span>&nbsp;<small>&gt;&gt;</small>&nbsp;]</u></a></li>
+</ul>
+
+			</div>
+		</div>
+
+
+
+
+	   </div>
+	 </div>	</div>	
+
+   </div>		
+		
+    
+
+<div class="footer black">
+		<div class="container">
+
+				<div class="col-md-8 social">
+					<div class="copy"><BR></div>
+				</div>
+
+		    
+	</div>
+	</div>	
+
+	
+</div></div>
+
+<div id="alertWindow">
+</div>
+<div id="alertWindow1">
+    <div id="abc1">You'll be redirect to google.com. Continue?</div>
+    <br />
+    <input type="button" id="btnCancel" class="btnokk" value="Ok" />
+</div>
+
+<script type="text/javascript">
+
+
+$(function() {
+    $("#redirect").click(function(){
+      $('#alertWindow').show();
+	   $('#alertWindow1').show();
+      return false;
+    });
+    $('#btnCancel').click(function() {
+        $('#alertWindow').hide();
+		$('#alertWindow1').hide();
+    });
+
+});
+</script>
+
+<style>
+
+#alertWindow {
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+   height: 100%;
+margin: auto;
+display: none;
+text-align: center;
+opacity: 0.2;
+background-color: #000;
+z-index:500;
+}
+
+#alertWindow1 {
+
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    background-color: #f3f3f3;
+	border: 1px solid #333;
+	display: none;
+	text-align: center;
+   border-radius: 5px;
+   padding: 10px;
+   z-index:501;
+}
+#btnOk, #btnCancel { width: 70px; }
+</style>
+
+
+<!-- script type="text/javascript" src="data/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='js/jquery-1.10.2.min.js'><\/script>")</script -->
+<script type="text/javascript" src="data/bootstrap.js"></script>
+<script type="text/javascript" src="data/bootstrap-select.js"></script>
+<script type="text/javascript" src="data/jquery.js"></script>
+<script type="text/javascript" src="data/cloud-zoom.js"></script>
+<script type="text/javascript" src="data/sapphire.js"></script>
+
+<script>
+$(document).ready( function(){	
+	
+		$('.slideshow > div').flexslider({
+			animation:"slide",
+			easing:"",
+			direction:"horizontal",
+			startAt:0,
+			initDelay:0,
+			slideshowSpeed:7000,
+			animationSpeed:600,
+			prevText:"Previous",
+			nextText:"Next",
+			pauseText:"Pause",
+			playText:"Play",
+			pausePlay:false,
+			controlNav:true,
+			slideshow:true,
+			animationLoop:true,
+			randomize:false,
+			smoothHeight:false,
+			useCSS:true,
+			pauseOnHover:true,
+			pauseOnAction:true,
+			touch:true,
+			video:false,
+			mousewheel:false,
+			keyboard:false
+	});
+});	
+</script>
+
+<script>
+$.fn.CloudZoom.defaults = {
+	zoomWidth:"auto",
+	zoomHeight:"auto",
+	position:"inside",
+	adjustX:0,
+	adjustY:0,
+	adjustY:"",
+	tintOpacity:0.5,
+	lensOpacity:0.5,
+	titleOpacity:0.5,
+	smoothMove:3,
+	showTitle:false};
+		
+jQuery(document).ready(function() 
+{
+    $('#myTab a').click(function (e) {
+		e.preventDefault();
+		$(this).tab('show');
+    })
+});
+</script>
+
+
+
+
+</body></html>
